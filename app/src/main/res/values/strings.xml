@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="welcomeString">Welcome  to QuizApp!</string>
+    <string name="Next">next</string>
+    <string name="Start">Start Quiz</string>
+    <string name="QuizDescription">The quiz contains 30 True and false questions.To view the question, click on the Question.
+    Press save button to save your answer.Click on submit button to Submit the quiz</string>
+    <string name="True">True</string>
+    <string name="False">False</string>
+    <string name="Submit">Submit</string>
+
+</resources>

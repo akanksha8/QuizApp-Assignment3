@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/MainActivity"
+    android:background="@color/yellow"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/WelcomeText"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/welcomeString"
+            android:textSize="30sp"
+            android:textColor="@color/dblack"/>
+
+    <TextView
+        android:id="@+id/DescriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:padding="5dp"
+        android:text="@string/QuizDescription"
+        android:textSize="20sp"
+        android:textColor="@color/dblack"/>
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/dblack"
+        android:padding="10dp"
+        android:text="@string/Start"
+        android:textColor="@color/white"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+
+        />
+    </LinearLayout>
+</FrameLayout>
